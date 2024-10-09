@@ -1,0 +1,39 @@
+{
+  "resourceType": "Bundle",
+  "id": "millennium-patient-r4",
+  "type": "collection",
+  "total": 1653,
+  "entry": [
+    {
+      {
+            "resource": {
+              "resourceType": "Endpoint",
+              "id": "96fd612b-7f6c-4509-9e0b-25e1bdc16363",
+              "contained": [
+                {
+                  "resourceType": "Organization",
+                  "id": "O96fd612b-7f6c-4509-9e0b-25e1bdc16363",
+                  "name": "Variety Children’s Hospital d/b/a Nicklaus Children’s Hospital",
+                  "address": [
+                    {
+                      "line": [
+                        "3100 SW 62nd Ave"
+                      ],
+                      "city": "Miami",
+                      "state": "Florida",
+                      "postalCode": "33155-3009",
+                      "country": "United States of America"
+                    }
+                  ]
+                }
+              ],
+              "status": "active",
+              "managingOrganization": {
+                "id": "#O96fd612b-7f6c-4509-9e0b-25e1bdc16363"
+              },
+              "address": "https://fhir-myrecord.cerner.com/r4/96fd612b-7f6c-4509-9e0b-25e1bdc16363/"
+            }
+          }
+    }
+]
+}
